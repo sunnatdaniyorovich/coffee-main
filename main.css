@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #F2F2F2;
+}
+h1,h2,h3{
+    font-family: 'Fraunces', serif;
+}
+p,a{
+    font-family: 'Barlow', sans-serif;
+    line-height: 26px;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.navbar{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.menubtn{
+    display: none;
+}
+.navbar_menu{
+    width: 330px;
+    color:#83888F;
+    display: flex;
+    list-style-type: none;
+}
+.navbar_link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #83888F;
+}
+
+
+
+
+
+
+
+
+.abaut{
+    height: 450px;
+    width: 1280px;
+    border-radius: 10px;
+    background-image: url(../img/chokalatcofe.jpg);
+    background-repeat: no-repeat;
+}
+.abaut_title{
+    height: 145px;
+    width: 540px;
+    font-size: 72px;
+    color:  #FEFCF7;
+    padding: 130px 0px 100px 80px;
+}
+.abaut_text{
+    height: 78px;
+    width: 445px;
+    color: #FEFCF7;
+    font-weight: 400;
+    padding-left: 80px;
+}
+.our{
+    display: flex;
+}
+.our img{
+    margin-top: 90px;
+    margin-left: 100px;
+    border-radius: 6px;
+}
+.our_title{
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.text_wrapper{
+    width: 400px;
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+.quality{
+    margin-top: 100px;
+    height: 474px;
+    width: 1280px;
+    border-radius: 10px;
+    background-color: #2C343E;
+    position: relative;
+    
+}
+
+.quality img{
+    position: absolute;
+    top: -75px;
+    right: 50px;
+    border-radius: 9px;
+}
+.quality_title{
+    padding-left: 90px;
+    padding-top:150px;
+    height: 48px;
+    width: 717px;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    color: #FEFCF7;
+}
+
+.quality_text{
+    height: 130px;
+    width: 540px;
+    color: #FEFCF7;
+    padding-left: 90px;
+    padding-top: 70px;
+    
+}
+.headquarters{
+    color: #83888F;
+    height: 32px;
+    width: 455px;
+    font-size: 32px;
+    padding:70px 50px;
+    
+}
+.our_box_wrapper{
+    position: relative;
+    height: 266px;
+    width: 1000px;
+    top: 149px;
+    display: flex;
+    left: 0;
+}
+.our_box{
+    left: -250px;
+}
+/*  */
+.kingdom{
+    position: relative;
+    left: 50px;
+    font-size: 32px;
+    width: 400px;
+}
+.canda, .austria{
+    position: relative;
+    left: 10px;
+    font-size: 32px;
+}
+.austria{
+    left: 10px;
+}
+.our_box{
+    height: 167px;
+    position: relative;
+    width: 185px;
+    left:-250px;
+    margin: 50px auto;
+}
+.canada{
+    left: -110px;
+}
+.australia{
+    left:-140px;
+}
+.main_titl{
+    color: #333D4B;
+    
+}
+.our_list{
+    list-style-type: none;
+}
+.our_link{
+    text-decoration: none;
+    color:  #333D4B;
+}
+
+.our_box::before{
+    display: inline-block;
+    content: "";
+    width: 80px;
+    height:80px;
+    background-image: url(../img/kingdom.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -150px;
+    left: 0;
+}
+.canada::before{
+    background-image: url(../img/kanada.svg);
+    left: 0;
+}
+.australia::before{
+    background-image: url(../img/australia.svg);
+    left: 0px;
+}
+
+
+
+
+
+
+
+footer{
+    height: 120px;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top:300px;
+    background-color:#2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    
+}
+.footer_menu{
+    display: flex;
+    list-style-type: none;
+    margin-right: 400px;
+}
+.footer_link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #83888F;
+    
+}
+.footer_link:hover{
+    color: #FEFCF7;
+}
+.img_wrapper a{
+    margin-right:15px;
+    text-decoration: none;
+}
+.foterlogo path{
+    
+    fill:#FEFCF7;
+}
+
+.foterlogo path:hover{
+    fill: #FDD6BA;
+}
+
+@media (max-width: 768px){
+    .container{
+        margin: 0 auto;
+        
+        width: 689px;
+    }
+    .navbar{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin: 20px auto;
+    }
+    .navbar_menu{
+        width: 283px;
+        color:#83888F;
+        display: flex;
+        list-style-type: none;
+    }
+    .menubtn{
+        display: none;
+    }
+    .navbar_link{
+        text-decoration: none;
+        margin-right: 20px;
+        color: #83888F;
+    }
+    
+    .abaut{
+        height: 400px;
+        width: 689px;
+        left: 39px;
+        top: 40px;
+        border-radius: 10px;
+        background-image: url(../img/chokalatcofe.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .abaut_title{
+        height: 145px;
+        width: 540px;
+        font-size: 72px;
+        color:  #FEFCF7;
+        padding: 130px 0px 100px 80px;
+    }
+    .abaut_text{
+        height: 78px;
+        width: 445px;
+        color: #FEFCF7;
+        font-weight: 400;
+        padding-left: 80px;
+    }
+    .our{
+        display: flex;
+    }
+    .our img{
+        height: 470px;
+        width: 281px;
+        border-radius: 8px;
+        margin-top: 100px;
+        margin-left: 0;
+        
+    }
+    .our_title{
+        margin-top:-90px;
+        padding-bottom: 30px;
+        width: 360px;
+        
+    }
+    
+    .text_wrapper{
+        height: 350px;
+        width: 340px;
+        position: relative;
+        left: 40px;
+        top: 200px;
+    }
+    .quality{
+        height: 488px;
+        width: 688px;
+        margin-top: 100px;
+        border-radius: 10px;
+        background-color: #2C343E;
+        position: relative;
+        
+    }
+    
+    .quality img{
+        position: absolute;
+        height: 320px;
+        width: 573px;
+        border-radius: 8px;
+        top: -120px;
+        right:55px;
+    }
+    .quality_title{
+        margin-top: 300px;
+        padding-left: 90px;
+        padding-top:250px;
+        height: 48px;
+        width: 717px;
+    }    
+    .our_box_wrapper{
+        position: relative;
+        height: 266px;
+        width: 689px;
+        display: flex;
+        
+    }
+    
+    /*  */
+    .kingdom{
+        position: relative;
+        display: flex;
+        width: 390px;
+        font-size: 24px;
+        
+    }
+    .canda, .austria{
+        width: 100px;
+        position: relative;
+        font-size: 24px;
+    }
+    .our_box{
+        height: 167px;
+        position: relative;
+        width: 185px;
+        left:-155px;
+        margin: 50px auto;
+    }
+    .canada{
+        left: -80px;
+    }
+    .australia{
+        left:-90px;
+    }
+    
+    
+    footer{
+        height: 270px;
+        width: 688px;
+        margin: 0 auto;
+        margin-top:300px;
+        background-color:#2C343E;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 10px;
+        
+    }
+    .footer_menu{
+        display: flex;
+        list-style-type: none;
+        margin: 0 auto;
+        
+    }
+    .footer_logo{
+        height: 24px;
+        width: 203px;
+        position: relative;
+        top: 50px;
+    }
+    .footer_link{
+        text-decoration: none;
+        margin-right: 20px;
+        color: #83888F;
+        
+    }
+    .img_wrapper{
+        margin-right: 25px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    /* """"""""""""":::::::::::::::::'''''''''''''''''''''""""""""" */
+    
+    
+    
+    
+    @media  (max-width: 375px){
+        .container{
+            margin: 0 auto;
+            width: 327px;
+            border-radius: 10px;
+            
+        }
+        .navbar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        .logo{
+            margin-left: -20px;
+        }
+        .menubtn{
+            display: block;
+            position: absolute;
+            left: 325px;
+            border: none;
+        }
+        .navbar_menu{
+            display: none;
+        }
+        
+        
+        
+        .abaut{
+            height: 400px;
+            width: 327px;
+            background-image: url(../img/Object.png);
+            
+        }
+        
+        .abaut_title{
+            height: 28px;
+            width: 279px;
+            font-size: 28px;
+            text-align: center;
+            color:  #FEFCF7;
+            padding: 110px 0px 70px 80px;
+        }
+        .abaut_text{
+            width: 320px;
+            height: 150px;
+            color: #FEFCF7;
+            font-weight: 400;
+            padding: 12px;
+        }
+        .our{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .our img{
+            height: 400px;
+            width: 327px;
+            margin-top: 100px;
+            margin-left: 0;
+            
+        }
+        .our_title{
+            width: 327px;
+            font-size: 32px;
+            margin-top:-170px;
+            padding-bottom: 30px;
+            width: 360px;
+            
+        }
+        
+        .text_wrapper{
+            height: 350px;
+            width: 327px;
+            position: relative;
+            left: 0px;
+            top: 200px;
+            text-align: center;
+        }
+        .quality{
+            height: 509px;
+            width: 327px;
+            position: relative;
+            top: 150px;
+        }
+        
+        .quality img{
+            position: absolute;
+            height: 156px;
+            width: 279px;
+            left: 25px;
+            top:-90px;
+        }
+        .quality_title{
+        position:absolute;
+            padding-right: 5px;
+            text-align: center;
+            top: -420px;
+            left: -80px;
+            height: 56px;
+            font-size: 24px;
+            width:404px;
+            
+        }    
+        .quality_text{
+            position: absolute;
+            width: 350px;
+            top: 180px;
+            right: 25px;
+            text-align: center;
+        }
+        .headquarters{
+            position: relative;
+            left: -30px;
+            top: 100px;
+        }
+        .our_box_wrapper{
+            position: relative;
+            top: 250px;
+            height: 266px;
+            width: 689px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        /*  */
+        .kingdom{
+            position: relative;
+            display: flex;
+            width: 390px;
+            font-size: 24px;
+            left: 95px;
+            
+        }
+        .canda, .austria{
+            width: 100px;
+            position: relative;
+            font-size: 24px;
+            left: 110px;
+            margin-top: 40px;    
+        }
+        .our_box{
+            height: 167px;
+            position: relative;
+            width: 185px;
+            left:-185px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .canada, .australia{
+            left: -170px;
+        }
+        .our_box::before{
+            left: 50px;
+        }
+        
+        footer{
+            height: 346px;
+            width: 327px;
+            margin-top: 800px;
+        }
+        .footer_menu{
+            flex-direction: column;
+            align-items: center;
+            
+            
+        }
+        .footer_logo{
+            height: 24px;
+            width: 203px;
+            position: relative;
+            top: 50px;
+        }
+        .footer_link{
+            text-decoration: none;
+            margin-bottom: 55px;
+            color: #83888F;      
+            
+        }
+        .img_wrapper{
+            margin: 0 auto;
+          }
+        
+        
+
+    }
+}
